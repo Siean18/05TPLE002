@@ -184,7 +184,7 @@
                                 <tr>
                                     <td><?= $d['NIM']; ?></td>
                                     <td><?= $d['NAMA']; ?></td>
-                                    <td><a href="<?= $d['LINK'] ?>">PORTFOLIO</a></td>
+                                    <td><a href="<?= $d['LINK'] ?>" target="_blank">PORTFOLIO</a></td>
                                 </tr>
                             <?php } ?>
                             </tbody>
